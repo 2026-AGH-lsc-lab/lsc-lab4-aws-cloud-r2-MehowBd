@@ -1,0 +1,10 @@
+=== Lambda Zip ===
+{"statusCode": 200, "headers": {"Content-Type": "application/json", "X-Server-Time-Ms": "76.221", "X-Instance-Id": "2026/03/24/[$LATEST]aca9f338531947e8b6662230ece780cc", "X-Cold-Start": "true"}, "body": "{\"results\": [{\"index\": 35859, \"distance\": 12.001459121704102}, {\"index\": 24682, \"distance\": 12.059946060180664}, {\"index\": 35397, \"distance\": 12.487079620361328}, {\"index\": 20160, \"distance\": 12.489519119262695}, {\"index\": 30454, \"distance\": 12.499402046203613}], \"query_time_ms\": 76.221, \"instance_id\": \"2026/03/24/[$LATEST]aca9f338531947e8b6662230ece780cc\", \"cold_start\": true}"}
+
+=== Lambda Container ===
+{"errorType":"Runtime.InvalidEntrypoint","errorMessage":"RequestId: 1aa943c7-1c6a-4d7b-8803-0f14008d6f2d Error: ProcessSpawnFailed"}
+
+=== Fargate ===
+
+
+=== EC2 ===

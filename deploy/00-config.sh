@@ -2,7 +2,7 @@
 # Shared configuration for all deployment scripts
 
 export AWS_REGION=us-east-1
-export ACCOUNT_ID="${ACCOUNT_ID:-YOUR_ACCOUNT_ID}"
+export ACCOUNT_ID="${ACCOUNT_ID:-637423171855}"
 if [ "$ACCOUNT_ID" = "YOUR_ACCOUNT_ID" ]; then
     echo "ERROR: Set ACCOUNT_ID before running. Either:"
     echo "  export ACCOUNT_ID=\$(aws sts get-caller-identity --query Account --output text)"

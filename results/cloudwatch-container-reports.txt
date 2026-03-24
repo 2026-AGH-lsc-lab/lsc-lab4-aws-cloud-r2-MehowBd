@@ -1,0 +1,5 @@
+REPORT RequestId: 0d15e1dd-51ab-43ef-b729-bcef8832931c	Duration: 77.07 ms	Billed Duration: 2668 ms	Memory Size: 512 MB	Max Memory Used: 143 MB	Init Duration: 2590.04 ms	
+XRAY TraceId: 1-69c27f51-59f5108363b723083a4045f2	SegmentId: ee1229847caeb60f	Sampled: true	
+	REPORT RequestId: 2ddb0e6a-3ea4-4a5a-869c-b2db30574933	Duration: 77.20 ms	Billed Duration: 2534 ms	Memory Size: 512 MB	Max Memory Used: 143 MB	Init Duration: 2455.93 ms	
+XRAY TraceId: 1-69c2800e-013360237e479e227b168954	SegmentId: 9955b6bd6960f188	Sampled: true	
+

@@ -166,7 +166,7 @@ if [ -z "$TG_ARN" ] || [ "$TG_ARN" = "None" ]; then
         --port 8080 \
         --vpc-id "$VPC_ID" \
         --target-type ip \
-        --health-check-path /health \
+        --health-check-path / \
         --health-check-interval-seconds 10 \
         --healthy-threshold-count 2 \
         --region "$AWS_REGION" \
